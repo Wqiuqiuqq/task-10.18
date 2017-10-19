@@ -1,0 +1,17 @@
+[
+ 	{
+ 		"imgs":"./img/wangjunkai.jpg",
+ 		"named":"王俊凯海报",
+ 		"price":"2"
+ 	},
+ 	{
+ 		"imgs":"./img/wangyuan.jpg",
+ 		"named":"王源海报",
+ 		"price":"2.5"
+ 	},
+ 	{
+ 		"imgs":"./img/yiyangqianxi.jpg",
+ 		"named":"千玺海报",
+ 		"price":"3"
+ 	}
+]

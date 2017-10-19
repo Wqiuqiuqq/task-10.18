@@ -1,0 +1,11 @@
+app.controller("shoppingController",["$scope","shoppingServer",function($scope,shoppingServer){
+	shoppingServer.getData("get","http://localhost:8899/?data").then(function(result){
+		console.log(result);
+		$scope.data=result;
+	})
+	$scope.$on("deleteItem",function(event,index){
+		console.log(event);
+		console.log(index);
+		$scope.data.splice(index,1);
+	})
+}])

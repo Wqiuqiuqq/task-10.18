@@ -1,0 +1,19 @@
+
+<ul class="clearfix list mt10" ng-repeat="key in data" data="data" index="{{$index}}">
+		<li class="col-xs-1">
+			<input type="checkbox" class="checkone"/>
+		</li>
+		<li class="col-xs-2 img">
+			<img ng-src="{{key.imgs}}" alt="" />
+		</li>
+		<li class="col-xs-3">
+			{{key.named}}
+			<span class="block">￥{{key.price}} <b class="ml15">x1</b></span>
+		</li>
+		<li class="col-xs-3 jisuan">
+			<input type="button" class="reduce" value="-" />
+			<input type="text" value="1" />
+			<input type="button" class="add" value="+" />
+		</li>
+		<li class="col-xs-2 del" ng-click="deleteItem(index)">删除</li>
+	</ul>
